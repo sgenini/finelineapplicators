@@ -1,0 +1,77 @@
+html { 
+  font-size: calc(70% + 0.25vw);
+}
+
+body {
+  background-color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+  background: rgb(76,109,134);
+  background: linear-gradient(45deg, rgba(76,109,134,1) 0%, rgba(85,122,149,1) 35%, rgba(110,155,189,1) 100%);
+  opacity: .95;
+  font-family: 'Julius Sans One', sans-serif;
+  border-bottom: 4px solid #B1A296;
+}
+
+.navbar-brand {
+  font-family: 'Marcellus', serif;
+  font-size: 170%;
+}
+
+.nav-item {
+  margin-right: 2px;
+  /* font-size: .9vw; */
+}
+
+.nav-item:hover {
+  background-color: rgb(133, 171, 199);
+}
+
+.page-footer {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .page-footer {
+    display: block;
+    background: rgb(76,109,134);
+    background: linear-gradient(-45deg, rgba(76,109,134,1) 0%, rgba(85,122,149,1) 35%, rgba(110,155,189,1) 100%);
+    opacity: .95;
+    border-top: 4px solid #B1A296;
+  }
+}
+
+.mobile-footer {
+  display: block;
+  background: rgb(76,109,134);
+  background: linear-gradient(-45deg, rgba(76,109,134,1) 0%, rgba(85,122,149,1) 35%, rgba(110,155,189,1) 100%);
+  border-top: 3px solid #B1A296;
+  color: white;
+}
+
+.mobile-footer a {
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .mobile-footer {
+    display: none;
+  }
+}
+
+.list-unstyled {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+/* MAIN: #557a95 */
+/* ACCENT: #B1A296 */
+/* BACKGROUND: #DFDCE3 */
+/* HOVER: #7395AE */
+/* HOVER2: ​#85abc7 */
+
+/* font-family: 'Lato', sans-serif; */
+/* font-family: 'Julius Sans One', sans-serif; */
+/* font-family: 'Marcellus', serif; */
