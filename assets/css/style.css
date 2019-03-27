@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  background-color: whitesmoke;
-  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+  background-color: white;
+  background-image: url("../images/diagmonds-light.png");
   font-family: 'Lato', sans-serif;
 }
 
