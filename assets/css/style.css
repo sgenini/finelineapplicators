@@ -4,6 +4,7 @@ html {
 
 body {
   background-color: whitesmoke;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
   font-family: 'Lato', sans-serif;
 }
 
@@ -18,6 +19,18 @@ body {
 .navbar-brand {
   font-family: 'Marcellus', serif;
   font-size: 170%;
+}
+
+.marcellus {
+  font-family: 'Marcellus', serif;
+}
+
+.special-blue {
+  color: #557a95;
+}
+
+.special-beige {
+  color: #B1A296;
 }
 
 .nav-item {
@@ -63,6 +76,10 @@ body {
 
 .list-unstyled {
   font-family: 'Roboto', sans-serif;
+}
+
+.carousel-caption {
+  color: #557a95;
 }
 
 
